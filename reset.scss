@@ -36,4 +36,11 @@ a {
   cursor: pointer;
   @include title;
   font-size: 14px;
+  transition: .3s;
+
+ &:hover{
+   background: #E6AC77;
+   color: #FFFFFF;
+   transform: scale(1.1);
+  }
 }
