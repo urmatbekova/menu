@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@mixin title{
+  font-family: 'Playfair Display',sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #E6AC77;
+}
+@mixin par{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #E6AC77;
+}
+@mixin btn{
+  box-sizing: border-box;
+  width: 102px;
+  height: 26.79px;
+  border: 1px solid #E6AC77;
+  background: #FFFFFF;
+  border-radius: 3px;
+  cursor: pointer;
+  @include title;
+  font-size: 14px;
+}

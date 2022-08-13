@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kameron:wght@400;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kameron:wght@400;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  background: #FFF3E8;
+}
+#header .container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+#header .container .header__title {
+  font-family: "Kameron", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.025em;
+  color: #AF8057;
+}
+#header .container .header__input {
+  width: 500px;
+  height: 60px;
+  background: #F5E9E1;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #E6AC77;
+  font-size: 18px;
+  color: black;
+}
+#header .container .header__search {
+  position: absolute;
+  left: 38.5rem;
+  color: gray;
+}
+#header .container .header__basket {
+  font-size: 24px;
+}
+#header .container .header__block {
+  width: 34px;
+  height: 34px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #000000 0%, #2B0000 50.83%, #FFF3E8 50.97%, #FFF3E8 100%);
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+#hero {
+  padding-top: 30px;
+  background: #FFF3E8;
+}
+#hero .hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+#hero .hero__block {
+  width: 250px;
+  height: 211px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  border: 1px solid #E5AC77;
+  margin: 15px;
+}
+#hero .hero__block--title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #E6AC77;
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
