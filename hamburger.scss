@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Kameron:wght@400;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Kameron:wght@400;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+
 #header {
   background: #FFF3E8;
 
@@ -58,7 +59,7 @@
   }
 }
 
-#hero  {
+#hero {
   .hero {
     display: flex;
     padding-top: 20px;
@@ -119,7 +120,7 @@
           margin: 10px;
 
           div {
-            padding:0 10px ;
+            padding:0 10px;
 
             h1 {
               @include par;
